@@ -77,7 +77,8 @@ hr{
 /*container of pic on home*/
 .container .pfp{
     width: 100%; 
-    min-width: 510px;
+    align-items: center;
+    
 }
 
 .container .pfp img{
@@ -88,6 +89,7 @@ hr{
 .container .name{
     font-family: 'Dosis', sans-serif;
     color: rgb(241, 84, 72);
+    padding: 1em;
 }
 
 /*text: Hi*/
@@ -100,12 +102,11 @@ hr{
 .container .name .name-text{
     font-weight: 950;
     font-size: 1.5rem;
-    letter-spacing: 1.4px;
     margin-top: -4%;
 }
 .container .name .name-text span{
     font-weight: 950;
-    font-size: 2.9rem;
+    font-size: 2.9em;
     letter-spacing: 1.2px;
     margin-top: -4%;
 }
@@ -113,9 +114,8 @@ hr{
 /*text: description*/
 .container .name .desc-text{
     font-size: 1.6rem;
-    font-weight: 500;
+   
     font-family: 'Dosis', sans-serif;
-    padding-right: 60px;
 }
 
 /*universal style for area: titles*/
@@ -175,7 +175,7 @@ hr{
 /*universal style for text: titles*/
 .titles{  
     color:#4d0202;
-    font-size: 3em;
+    font-size: 3rem;
     font-family: 'Dosis', sans-serif;    
     font-weight: 600;
     letter-spacing: 8.5px;
@@ -229,8 +229,8 @@ hr{
 }
 
 .skillsimg{
-    height: 200px;
-    width: auto;
+    height: auto;
+    width: 100%;
 }
 
 
@@ -337,6 +337,10 @@ hr{
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.vid{
+    width: 100%;
 }
 
 
